@@ -1,15 +1,11 @@
-# Basic Sample Hardhat Project
+# Emit events with log0
+Repo for gas efficient solidity events emitted with the `log0` opcode.
+Read the accompanying blog post: https://daltyboy11.github.io/gas-optimizing-your-contract-logs/
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
+To get it up and running
+```
+git clone git@github.com:daltyboy11/gas-efficient-events.git
+cd gas-efficient-events
+npm install
 npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
 ```
